@@ -22,8 +22,8 @@ public class App {
 	    context.getBeansOfType(Person.class).values().forEach(System.out::println);
 	    
 	    //2.手動在contex中注入
-	    BeanDefinition beanDefinition=null;
-	    context.registerBeanDefinition("person"+11, beanDefinition);
+//	    BeanDefinition beanDefinition=null;
+//	    context.registerBeanDefinition("person"+11, beanDefinition);
 		context.close();
 	}
 }
